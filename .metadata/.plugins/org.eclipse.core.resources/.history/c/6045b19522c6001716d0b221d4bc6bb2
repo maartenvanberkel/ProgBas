@@ -1,0 +1,26 @@
+package be.pxl.h6.exoef5;
+
+import java.util.Scanner;
+
+public class H6ExOef5 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Geef een zin in: ");
+		StringBuilder tekst = new StringBuilder(keyboard.nextLine());
+		
+		for (int i = 0; i < tekst.length(); i++) {
+			if (tekst.charAt(i) < 'a' || tekst.charAt(i) > 'z') {
+				System.out.print(tekst.charAt(i));
+			} else {
+				System.out.print(tekst.insert(tekst.charAt(i), '?'));
+			}
+		}
+		
+		
+		
+		
+		keyboard.close();
+	}
+}

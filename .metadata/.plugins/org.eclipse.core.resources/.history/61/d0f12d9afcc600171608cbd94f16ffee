@@ -1,0 +1,28 @@
+package be.pxl.ve1.oef3;
+
+import java.util.Scanner;
+
+public class Ve1Oef3 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Geef een tekst in: ");
+		StringBuilder tekst = new StringBuilder(keyboard.nextLine());
+		
+		System.out.println("Geef het aantal karakters per regel in: ");
+		int karaktersPerRegel = keyboard.nextInt();
+		
+		keyboard.nextLine();
+		
+		while(karaktersPerRegel > 0) {		
+			System.out.println("Geef een tekst in: ");
+			tekst = new StringBuilder(keyboard.nextLine());
+			
+			System.out.println("Geef het aantal karakters per regel in: ");
+			karaktersPerRegel = keyboard.nextInt();
+		}
+		
+		keyboard.close();
+	}
+}

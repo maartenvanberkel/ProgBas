@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/zVoorbeeldExamen/src/be/pxl/ve1/oef1wouter/Ve1Oef1Wouter.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="be.pxl.ve1.oef1wouter.Ve1Oef1Wouter"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="zVoorbeeldExamen"/>
+</launchConfiguration>

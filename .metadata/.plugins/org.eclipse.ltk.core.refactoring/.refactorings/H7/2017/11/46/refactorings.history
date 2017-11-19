@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;be.pxl.h7.exoef5&apos; to &apos;be.pxl.h7.exoef5oplossing&apos;&#x0D;&#x0A;- Original project: &apos;H7&apos;&#x0D;&#x0A;- Original element: &apos;H7/src/be.pxl.h7.exoef5&apos;&#x0D;&#x0A;- Renamed element: &apos;H7/src/be.pxl.h7.exoef5oplossing&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;be.pxl.h7.exoef5&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;be.pxl.h7.exoef5" name="be.pxl.h7.exoef5oplossing" qualified="false" references="true" stamp="1510600542391" textual="false" version="1.0"/>
+</session>
