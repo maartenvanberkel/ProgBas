@@ -18,6 +18,10 @@ public class H8Opdr13 {
 		double diameter2 = Math.round(diameter);
 		
 		System.out.println(diameter2);
+		
+		System.out.printf("diameter ofgerond op 2 cijfers na de komma: %.2f", diameter);
+		
+		
 	}
 
 }

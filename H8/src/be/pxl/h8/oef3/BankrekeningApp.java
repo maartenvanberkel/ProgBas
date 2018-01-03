@@ -18,9 +18,9 @@ public class BankrekeningApp {
 //		rekening2.stort(23867);
 //		rekening2.verrichting(-100, 200, 400, -300);
 //		rekening2.schrijfRenteBij();
-//		rekening2.verrichting(100, 200 , -100);
+		rekening2.verrichting(100, 200 , -100);
 //		rekening1.stort(rekening2.getSaldo());
 
-		System.out.println(rekening1.getSaldo();
+		System.out.println(rekening1.getSaldo());
 	}
 }

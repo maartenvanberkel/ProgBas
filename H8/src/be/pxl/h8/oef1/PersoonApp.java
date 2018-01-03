@@ -13,21 +13,27 @@ public class PersoonApp {
 //		
 //		System.out.println("Deze persoon is " + mens.voornaam.concat(" ") + mens.naam);
 		
-		mens.setVoornaam("Maarten");
-		mens.setNaam("van Berkel");
-		mens.setGewicht(85);
-		mens.setLengte(1.99);
-		mens.setGeboorteJaar(1990);
+//		mens.setVoornaam("Maarten");
+//		mens.setNaam("van Berkel");
+//		mens.setGewicht(85);
+//		mens.setLengte(1.99);
+//		mens.setGeboorteJaar(1990);
+//		
+//		System.out.println(mens.toString());
+//		
+//		System.out.println(mens.getLengte());
+//	
+//		mens.groei();
+//		System.out.println(mens.getLengte());
+//		
+//		mens.groei(20);
+//		System.out.println(mens.getLengte());
+		Persoon mens2 = new Persoon("Maarten", "vb");
 		
-		System.out.println(mens.toString());
+		mens2.setLengte(2);
+		mens2.setGewicht(50);
+		mens2.setGeboorteJaar(1990);
 		
-		System.out.println(mens.getLengte());
-	
-		mens.groei();
-		System.out.println(mens.getLengte());
-		
-		mens.groei(20);
-		System.out.println(mens.getLengte());
-		
+		System.out.println(mens2.toString());
 	}
 }

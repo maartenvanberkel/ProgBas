@@ -10,20 +10,23 @@ public class Persoon {
 	private String voornaam;
 	private String naam;
 	private double lengte;
-	private double gewicht;;
+	private double gewicht;
 	private int geboorteJaar;
 
 	public Persoon() {
 		this("onbekend", "onbekend");
 	}
 
-	public Persoon(String voornaam, String naam) {
+	public Persoon(String naam, String voornaam) {
 		this.voornaam = voornaam;
 		this.naam = naam;
 	}
 
 	public Persoon(Persoon mens1) {
-		this(mens1.voornaam, mens1.naam);
+		this(mens1.naam, mens1.voornaam);
+		this.geboorteJaar = mens1.geboorteJaar;
+		this.gewicht = mens1.gewicht;
+		this.lengte = mens1.lengte;
 	}
 
 	public void setVoornaam(String voornaam) {
@@ -68,7 +71,7 @@ public class Persoon {
 	}
 
 	public double berekenBmi() {
-		double bmi = this.gewicht / this.lengte * this.lengte;
+		double bmi = gewicht / (lengte * lengte);
 
 		return bmi;
 	}
@@ -124,7 +127,7 @@ public class Persoon {
 		return lengte;
 	}
 
-	public double getGeboorteJaar() {
+	public int getGeboorteJaar() {
 		return geboorteJaar;
 	}
 
